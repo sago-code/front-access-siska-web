@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+}
+
+.login-square {
+    display: flex;
+    align-items: center;
+    height: 283px;
+    margin-top: 175px;
+    flex-wrap: wrap;
+    align-content: center;
+    min-width: 30%;
+    text-align: center;
+    border: 2px solid #959191;
+    border-radius: 30px;
+    background: #e9e9e9;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    min-width: 30%;    
+    text-align: center;
+}
+
+.login-form > h1 {
+    width: 100%;
+}
+
+.login-form > form {
+    width: 90%;
+    padding: 0px 5%;
+}
+
+.login-form input {
+    width: 92%;
+    padding: 5px 10px;
+    font-size: 12pt;
+    border: 2px solid #5151518f;
+    border-radius: 50px;
+    margin: 5px;
+    transition: 300ms;
+}
+
+.login-form input:focus {
+    border: 2px solid #656565;
+    box-shadow: 0px 0px 20px 5px #3d3d3d;
+    transition: 300ms;
+}
+
+.login-form button {
+    padding: 10px 20%;
+    border: 0px;
+    border-radius: 50px;
+    background: #515151;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0px;
+    cursor: pointer;
+    position: relative;
+    bottom: 0px;
+    transition: 300ms;
+}
+
+.login-form button:hover {
+    background: #2187b8;
+    box-shadow: 0px 6px 0px #515151;
+    bottom: 6px;
+    transition: 300ms;
+}
+
+.image-container {
+    width: 54%;
+    margin-left: 46px;
+    margin-top: 33px;
+    height: 160px;
+    position: relative;
+}
+
+.systemAdminText {
+    text-align: center;
+    margin-right: 190px;
+    font-size: x-large;
+    min-height: 25%;
+    position: relative;
+    bottom: 40px;
+}
