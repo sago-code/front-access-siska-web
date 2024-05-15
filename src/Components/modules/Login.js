@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react';
 import '../styles/login.css';
 import logo from '../images/Logo_access_siska.png';
+import logoUni from '../images/Logo_uni_libre.png';
 
 export function Login() {
     const [email, setEmail] = useState('');
@@ -20,7 +21,7 @@ export function Login() {
         <Fragment>
             <div className='container'>
                 <div className='image-container'>
-                    <img src={logo} alt='LogoLogin' className='logo-login'/>
+                    <img src={logo} alt='LogoLogin'/>
                     <h4 className='systemAdminText'>Sistema Administrativo de acceso</h4>
                 </div>
                 <div className='login-square'>
@@ -52,6 +53,9 @@ export function Login() {
                             </div>
                         </form>
                     </div>
+                </div>
+                <div className='img-container'>
+                    <img src={logoUni} alt='LogoUni' className='logoUniL'/>
                 </div>
             </div>
         </Fragment>

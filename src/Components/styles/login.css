@@ -81,9 +81,20 @@
 
 .systemAdminText {
     text-align: center;
-    margin-right: 190px;
+    margin-right: 276px;
     font-size: x-large;
     min-height: 25%;
     position: relative;
     bottom: 40px;
+}
+
+.img-container {
+    height: 120px;
+    width: 116px;
+    margin-top: 12px;
+    margin-right: 65px;
+}
+
+.logoUniL {
+    height: 120px;
 }
