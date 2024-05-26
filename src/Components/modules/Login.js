@@ -6,6 +6,7 @@ import logoUni from '../images/Logo_uni_libre.png';
 export function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [btnDisable, setBtnDisable] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleRedirection = (event) => {
@@ -27,26 +28,30 @@ export function Login() {
                 <div className='login-square'>
                     <div className='login-form'>
                         <h1 className='login-title'>Inicio de sesión</h1>
-                        <form onSubmit={handleRedirection}>
+                        <form onSubmit={handleRedirection} id='formLogin'>
                             <div>
                                 <input
-                                    type="text"
+                                    id='email'
+                                    type="email"
                                     name="name_user"
                                     placeholder="correo electronico"
                                     value={email}
+                                    required="required"
                                     onChange={(e) => setEmail(e.target.value)}
                                 />
                             </div>
                             <div>
                                 <input
+                                    id='password'
                                     type="password"
                                     name="user_password"
                                     placeholder="contraseña"
                                     value={password}
+                                    required="required"
                                     onChange={(e) => setPassword(e.target.value)}
                                 />
                             </div>
-                            <button type="submit" onClick={handleRedirection}>iniciar sesión</button>
+                            <button type="submit" onClick={handleRedirection} id='botonEnviar' disabled={btnDisable}>iniciar sesión</button>
                             {errorMessage && <div style={{ color: 'red' }}>{errorMessage}</div>}
                             <div>
                                 <label>¿Olvido su contraseña?</label>

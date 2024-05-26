@@ -1,0 +1,36 @@
+.main-ontainer span{
+    display: block;
+    width: 80%;
+    margin: 0 auto 10px;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+.main-ontainer table{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    background: #f7f7f7c7;
+    border-collapse: collapse;
+}
+
+.main-ontainer table{
+    border: 2px solid #131313;
+    th,td{
+        padding: 3px;
+        border-left: 2px solid #131313;
+        border-right: 2px solid #131313;
+    }
+}
+
+.main-ontainer table thead{
+    background: #939393;
+}
+
+.main-ontainer table tr:nth-child(even){
+    background: #cccccca6;
+}
+
+.main-ontainer .employee{
+    text-align: center;
+}
