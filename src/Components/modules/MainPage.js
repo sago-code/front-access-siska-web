@@ -1,5 +1,7 @@
 import { Fragment, React } from "react";
 import '../styles/MainPage.css';
+import circStudents from '../images/circ_estudents.png';
+import chuloAdmin from '../images/chulo-admin.png';
 
 export function MainPage() {
     return (
@@ -24,7 +26,7 @@ export function MainPage() {
                             <td>40</td>
                             <td>Giacomo</td>
                             <td>No</td>
-                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>Elmira  Anosgrande</td>
@@ -32,7 +34,9 @@ export function MainPage() {
                             <td>26</td>
                             <td>ElanoGrande</td>
                             <td>Si</td>
-                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                            <td className="employee">
+                                <img></img>
+                            </td>
                         </tr>
                         <tr>
                             <td>Yasemu Rio</td>
@@ -40,7 +44,9 @@ export function MainPage() {
                             <td>28</td>
                             <td>Zombie</td>
                             <td>No</td>
-                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                            <td className="employee">
+                                <img src={circStudents} className="circStu"/>
+                            </td>
                         </tr>
                         <tr>
                             <td>Eldino Saurio</td>
@@ -48,7 +54,9 @@ export function MainPage() {
                             <td>38</td>
                             <td>TRex</td>
                             <td>No</td>
-                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                            <td className="employee">
+                                <img src={chuloAdmin} className="chuloAdmin"/>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
