@@ -5,21 +5,49 @@ export function MainPage() {
     return (
         <Fragment>
             <div className="main-ontainer">
-                <span>Customers</span>
+                <span>Ingresos mas recientes</span>
                 <table>
                     <thead>
                         <tr>
-                            <th>Name(job title)</th>
-                            <th>Age</th>
+                            <th>Nombre</th>
+                            <th>Cargo</th>
+                            <th>Edad</th>
                             <th>Nickname</th>
-                            <th>Employee</th>
+                            <th>Vehiculo parqueado</th>
+                            <th>Tipo de usuario</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Giacomo guilizzoni founder & CEO</td>
+                            <td>Giacomo guilizzoni</td>
+                            <td>founder & CEO</td>
                             <td>40</td>
-                            <td>Peldi</td>
+                            <td>Giacomo</td>
+                            <td>No</td>
+                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                        </tr>
+                        <tr>
+                            <td>Elmira  Anosgrande</td>
+                            <td>Docente</td>
+                            <td>26</td>
+                            <td>ElanoGrande</td>
+                            <td>Si</td>
+                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                        </tr>
+                        <tr>
+                            <td>Yasemu Rio</td>
+                            <td>Estudiante</td>
+                            <td>28</td>
+                            <td>Zombie</td>
+                            <td>No</td>
+                            <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
+                        </tr>
+                        <tr>
+                            <td>Eldino Saurio</td>
+                            <td>Administrativo</td>
+                            <td>38</td>
+                            <td>TRex</td>
+                            <td>No</td>
                             <td className="employee"><input type="radio" id="employee" name="employee" checked/></td>
                         </tr>
                     </tbody>
