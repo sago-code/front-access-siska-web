@@ -1,0 +1,30 @@
+.tableUser{
+    width: 90%;
+}
+
+.tableUser div{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tableUser label{
+    display: block;
+    width: 12%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.tableUser input{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tableUser select{
+    display: block;
+    width: 72.3%;
+    padding: 10px;
+    border-radius: 10px;
+}

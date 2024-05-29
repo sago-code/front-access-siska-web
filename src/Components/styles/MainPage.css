@@ -44,3 +44,58 @@
     height: 23px;
     width: 23px;
 }
+
+.TypeStatus{
+    display: block;
+    text-align: right;
+    line-height: 10px
+}
+
+.TypeStatus p{
+    width: 40%;
+    position: relative;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+.TypeStatus p::after{
+    content: '';
+    display: block;
+    height: 15px;
+    width: 40%;
+    background: #000;
+    position: absolute;
+    left: 104%;
+    bottom: 0px;
+    background-image: calc(#535353,#5a0101,#000263,#181818,#035307);
+}
+
+.TypeStatus .statusSuperAdmin::after{
+    content: '';
+    width: 10%;
+    background: #5a0101;
+}
+
+.TypeStatus .statusEstude::after{
+    content: '';
+    width: 1%;
+    background: #535353;
+}
+
+.TypeStatus .statusAdmin::after{
+    content: '';
+    width: 25%;
+    background: #000263;
+}
+
+.TypeStatus .statusVisit::after{
+    content: '';
+    width: 40%;
+    background: #181818;
+}
+
+.TypeStatus .statusDirect::after{
+    content: '';
+    width: 35%;
+    background: #035307;
+}

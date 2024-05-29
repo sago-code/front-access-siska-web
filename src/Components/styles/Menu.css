@@ -1,4 +1,26 @@
-.imageHome {
-    height: 30px;
-    width: 30px;
+.menu {
+    min-width: 230px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu *{
+    text-align: left;
+    display: flex;
+    cursor: pointer;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.menu li{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu li:hover{
+    background: linear-gradient(45deg, #00000087, transparent);
 }
