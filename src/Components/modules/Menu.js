@@ -1,4 +1,6 @@
 import { Fragment, React } from "react";
+import homeImage from '../images/home-image.png';
+import "../styles/Menu.css";
 
 export function Menu() {
     return (
@@ -6,10 +8,10 @@ export function Menu() {
             <table>
                 <tr>
                     <th>
-                        <label>hola</label>
+                        <img src={homeImage} className="imageHome"/>
                     </th>
                     <th>
-                        home
+                        dashboard
                     </th>
                 </tr>
                 <tr>
