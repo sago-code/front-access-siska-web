@@ -1,7 +1,7 @@
 .menu {
     min-width: 230px;
     padding: 0px;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 .menu *{
@@ -23,4 +23,13 @@
 
 .menu li:hover{
     background: linear-gradient(45deg, #00000087, transparent);
+}
+
+.logoApp {
+    height: 60px;
+    width: 60px;
+    cursor: default;
+    position: absolute;
+    top: 1%;
+    cursor: default;
 }
