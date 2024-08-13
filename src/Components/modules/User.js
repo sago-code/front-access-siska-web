@@ -1,6 +1,6 @@
 import { Fragment, React, useState, useEffect } from "react";
 import "../styles/User.css";
-import { Modal, Box, Button, Typography } from '@mui/material';
+import { Modal, Box, Typography } from '@mui/material';
 
 export function User() {
     const [open, setOpen] = useState(false);

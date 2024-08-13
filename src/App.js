@@ -5,6 +5,8 @@ import { Login } from './Components/modules/Login';
 import { MainPage } from './Components/modules/MainPage';
 import { Menu } from './Components/modules/Menu';
 import { User } from './Components/modules/User';
+import { HistoryIng } from './Components/modules/HistoryIng';
+import { Reportes } from './Components/modules/Reportes';
 
 function ProtectedLayout({ children }) {
   return (
@@ -31,6 +33,16 @@ function App() {
             <ProtectedLayout>
               <User/>
             </ProtectedLayout>  
+          }/>
+          <Route path='/income-history' element={
+            <ProtectedLayout>
+              <HistoryIng/>
+            </ProtectedLayout>
+          }/>
+          <Route path='/reports' element={
+            <ProtectedLayout>
+              <Reportes/>
+            </ProtectedLayout>
           }/>
           <Route path="/" element={<Navigate to="/login"/>} />
         </Routes>

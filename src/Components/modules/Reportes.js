@@ -25,12 +25,12 @@ export function Reportes() {
                         <tr>
                             <td>Juan Rodriguez</td>
                             <td>Reclamo</td>
-                            <td>El día de hoy se fue la luz y no se retrasó la salida del edificio.</td>
+                            <td>El día de hoy se fue la luz y se retrasó la salida del edificio.</td>
                         </tr>
                         <tr>
                             <td>Maria Lopez</td>
                             <td>Petición</td>
-                            <td>Solicito la instalación de más dispensadores de agua en el piso 5.</td>
+                            <td>Solicito el cambio de celular para el manejo de mi carné.</td>
                         </tr>
                         <tr>
                             <td>Carlos Perez</td>
